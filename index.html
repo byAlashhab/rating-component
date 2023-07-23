@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Interactive rating component</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="outer-container-index">
+      <div class="inner-container-index">
+        <img src="./images/icon-star.svg" alt="" class="star" />
+        <h2 class="main-index">How did we do ?</h2>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="stars">
+          <p class="rating doHover">1</p>
+          <p class="rating doHover">2</p>
+          <p class="rating doHover">3</p>
+          <p class="rating doHover">4</p>
+          <p class="rating doHover">5</p>
+        </div>
+        <button class="submit">SUBMIT</button>
+      </div>
+    </div>
+
+    <div class="outer-success">
+      <img src="./images/illustration-thank-you.svg" alt="thanks" />
+      <p class="p-rating"></p>
+      <h2>Thank you!</h2>
+
+      <p class="p-success">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p> 
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
